@@ -8,7 +8,7 @@ def rastrigin(x1, x2):
     D = 2  # Размерность
     term1 = x1**2 - 10 * np.cos(2 * np.pi * x1)
     term2 = x2**2 - 10 * np.cos(2 * np.pi * x2)
-    return 10 * D + np.abs(term1) + np.abs(term2)
+    return 10 * D + (term1) + (term2)
 
 
 x1_min, x1_max = -5.12, 5.12
